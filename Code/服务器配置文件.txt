@@ -1,0 +1,2 @@
+推荐使用myeclipse 2015，JDK 1.7.0_76,apache-tomcat-7.0.57
+然后将相应sql文件导入数据库中，将服务器端源程序导入myeclipse中即可

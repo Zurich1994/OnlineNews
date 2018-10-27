@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSortServlet</servlet-name>
+    <servlet-class>com.news.servlet.AddSortServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuerySortServlet</servlet-name>
+    <servlet-class>com.news.servlet.QuerySortServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryQingqiuServlet</servlet-name>
+    <servlet-class>com.news.servlet.QueryQingqiuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteSortServlet</servlet-name>
+    <servlet-class>com.news.servlet.DeleteSortServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSortServlet2</servlet-name>
+    <servlet-class>com.news.servlet.UpdateSortServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSortServlet1</servlet-name>
+    <servlet-class>com.news.servlet.UpdateSortServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RssServlet</servlet-name>
+    <servlet-class>com.news.servlet.RssServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CleanServlet</servlet-name>
+    <servlet-class>com.news.servlet.CleanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSortServlet</servlet-name>
+    <servlet-class>com.news.servlet.GetSortServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <servlet-class>com.news.servlet.AddNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryNewsServlet</servlet-name>
+    <servlet-class>com.news.servlet.QueryNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateNewsServlet1</servlet-name>
+    <servlet-class>com.news.servlet.UpdateNewsServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <servlet-class>com.news.servlet.DeleteNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreatXMLServlet</servlet-name>
+    <servlet-class>com.news.servlet.CreatXML</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XMLServlet</servlet-name>
+    <servlet-class>com.news.servlet.XMLServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.news.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getInfoServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.getInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getNewsServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.getNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOrRegister</servlet-name>
+    <servlet-class>com.news.android.servlet.LoginOrRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feedbackServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.feedbackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>commentServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.commentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCommentServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.getCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCollectServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.getCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TSnewsServlet</servlet-name>
+    <servlet-class>com.news.servlet.TSnewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QXtuisongServlet</servlet-name>
+    <servlet-class>com.news.servlet.QXtuisongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tsToUserServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.tsToUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCollectServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.addCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CNewsServlet</servlet-name>
+    <servlet-class>com.news.android.servlet.CNewsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddSortServlet</servlet-name>
+    <url-pattern>/AddSortServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuerySortServlet</servlet-name>
+    <url-pattern>/QuerySortServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryQingqiuServlet</servlet-name>
+    <url-pattern>/QueryQingqiuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteSortServlet</servlet-name>
+    <url-pattern>/DeleteSortServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSortServlet2</servlet-name>
+    <url-pattern>/UpdateSortServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSortServlet1</servlet-name>
+    <url-pattern>/UpdateSortServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RssServlet</servlet-name>
+    <url-pattern>/RssServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CleanServlet</servlet-name>
+    <url-pattern>/CleanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSortServlet</servlet-name>
+    <url-pattern>/GetSortServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <url-pattern>/AddNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryNewsServlet</servlet-name>
+    <url-pattern>/QueryNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNewsServlet1</servlet-name>
+    <url-pattern>/UpdateNewsServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <url-pattern>/DeleteNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreatXMLServlet</servlet-name>
+    <url-pattern>/CreatXMLServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XMLServlet</servlet-name>
+    <url-pattern>/XMLServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getInfoServlet</servlet-name>
+    <url-pattern>/getInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getNewsServlet</servlet-name>
+    <url-pattern>/getNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOrRegister</servlet-name>
+    <url-pattern>/LoginOrRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feedbackServlet</servlet-name>
+    <url-pattern>/feedbackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>commentServlet</servlet-name>
+    <url-pattern>/commentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCommentServlet</servlet-name>
+    <url-pattern>/getCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCollectServlet</servlet-name>
+    <url-pattern>/getCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TSnewsServlet</servlet-name>
+    <url-pattern>/TSnewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QXtuisongServlet</servlet-name>
+    <url-pattern>/QXtuisongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tsToUserServlet</servlet-name>
+    <url-pattern>/tsToUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCollectServlet</servlet-name>
+    <url-pattern>/addCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CNewsServlet</servlet-name>
+    <url-pattern>/CNewsServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

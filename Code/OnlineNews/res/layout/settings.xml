@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:background="@drawable/android_layout_bg"
+    tools:context=".CollActivity">
+    
+     <RelativeLayout
+       android:id="@+id/SettingsTop"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/grey"
+       >
+      <ImageView
+            android:id="@+id/icon_SettingsTop"
+            style="@style/PersonalIconStyle"
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:src="@drawable/ic_left" />
+
+         <TextView
+             android:id="@+id/button_SettingsTop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_centerHorizontal="true"
+             android:layout_centerInParent="true"
+             android:layout_toRightOf="@id/icon_SettingsTop"
+             android:text="@string/SettingsTop"
+             android:textSize="20sp" />
+
+       
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" 
+        android:layout_below="@id/SettingsTop">
+
+      <TextView
+         style="@style/PersonalCenterText"/>
+
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+            <RelativeLayout style="@style/PersonalTopStyle" >
+               <TextView
+                   android:id="@+id/Font"
+                   style="@style/PersonalTextStyle"
+                   android:text="@string/Font" />
+              <LinearLayout 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">    
+               <TextView
+                   android:id="@+id/big"
+                   style="@style/PersonalTextStyle"
+                   android:text="@string/big" />
+               <TextView
+                   android:id="@+id/medium"
+                   style="@style/PersonalTextStyle"
+                   android:text="@string/medium" />
+               <TextView
+                   android:id="@+id/small"
+                   style="@style/PersonalTextStyle"
+                   android:text="@string/small" /></LinearLayout>
+              </RelativeLayout>
+
+             <View style="@style/PersonalLine" />
+
+              <RelativeLayout style="@style/PersonalNormalStyle" >                         
+                 
+                <Switch                   
+                    android:id="@+id/Headlines_Push"
+                    android:text="@string/Headlines_Push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/PersonalTextStyle"/>
+               </RelativeLayout>
+
+               <View style="@style/PersonalLine" />
+
+               <RelativeLayout style="@style/PersonalBottomStyle" >
+                    <TextView
+                    android:id="@+id/OfflineSet"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/OfflineSet" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+                  </RelativeLayout>
+        </LinearLayout>
+
+     <TextView
+         style="@style/PersonalCenterText"/>
+         <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+              <RelativeLayout style="@style/PersonalTopStyle" >
+                   <TextView
+                    android:id="@+id/Search"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/Search" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+               </RelativeLayout>
+
+               <View style="@style/PersonalLine" />
+
+               <RelativeLayout style="@style/PersonalNormalStyle" >
+                  <TextView
+                    android:id="@+id/CoverStory"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/CoverStory" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+                 </RelativeLayout>
+
+             <View style="@style/PersonalLine" />
+
+                 <RelativeLayout style="@style/PersonalBottomStyle" >
+
+                     <TextView
+                    android:id="@+id/Recommend"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/Recommend" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+                   </RelativeLayout>
+                   </LinearLayout>
+
+      <TextView
+         style="@style/PersonalCenterText"/>
+           <LinearLayout style="@style/PersonalMainLayoutStyle" >
+             <RelativeLayout 
+                 style="@style/PersonalTopStyle" 
+                 android:id="@+id/About">
+                <TextView
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/About" />
+                 <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+              </RelativeLayout>
+                    
+             
+              <View style="@style/PersonalLine" />
+
+              <RelativeLayout style="@style/PersonalNormalStyle" >
+                <TextView
+                    android:id="@+id/Feedback"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/Feedback" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+                </RelativeLayout>
+                
+            <View style="@style/PersonalLine" />
+
+              <RelativeLayout style="@style/PersonalBottomStyle" >
+
+                  <TextView
+                    android:id="@+id/Updates"
+                    style="@style/PersonalTextStyle"                  
+                    android:text="@string/Updates" />
+                  <ImageView
+                     style="@style/PersonalRightIconStyle"
+                     android:src="@drawable/android_list_idex" />
+                </RelativeLayout>
+           </LinearLayout>
+       </LinearLayout>
+</RelativeLayout>

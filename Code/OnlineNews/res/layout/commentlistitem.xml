@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp" >
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" 
+        android:textColor="#8DB6CD"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/text_comment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/text_id"
+         android:textColor="@color/black"
+         android:textSize="14sp"/>
+
+</RelativeLayout>
